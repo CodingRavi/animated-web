@@ -26,7 +26,7 @@ nav{
     /* border: 1px solid red; */
     font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 #sher{
@@ -35,7 +35,7 @@ nav{
 }
 
 .logo{
-    width: 100px;
+    width: 140px;
 
 }
 
@@ -56,120 +56,232 @@ nav{
     width: 300px;
 }
 
-#menu{
-    font-size: 25px;
+nav i{
+    font-size: 20px;
 }
-
 main{
-    padding: 10px 20px;
-    width: 98%;
-    margin: auto;
-    /* border: red solid 1px; */
-}
-.imagecontainer{
-    width: 100%;
-    height:600px;
-    /* border: red solid 1px; */
-    background-image: url("./athens.jpg");
-    background-position: center;
-    background-size: cover;   
-    overflow: hidden;
-}
-.imagemask{
-    /* align-items: flex-end; */
-    width: 100%;
-    height: 90%;
-    position: relative;
-    top: 30px;
-    box-shadow: 0px 0px 0px 600px rgba(0,0,0,1);
-    display: flex;
-    align-items: center;
-}
-.one{
-    width: 20%;
-    height: 100%;
-   overflow: hidden;
-   flex-direction: column;
-   
-}
-.lone{
-    width: 100%;
-    height: 60%;
-    overflow: hidden;
-}
-.lone>:nth-child(1){
-    width: 100%;
-    height: 10vw;
-    position: relative;
-    top: 52%;
-    box-shadow: 0px 0px 0px 600px rgba(0,0,0,1);
-    animation: imageanim 5s cubic-bezier(0.19, 1, 0.22, 1) ;
-}
-.ltwo{
-    width: 100%;
-    height: 40%;
-    overflow: hidden;
-}
-.ltwo>:nth-child(1){
-    width: 30%;
-    height: 8vw;
-    position: relative;
-    top: 50%;
-    box-shadow: 0px 0px 0px 600px rgba(0,0,0,1);
-    animation: imageanim 5s cubic-bezier(0.19, 1, 0.22, 1) ;
-}
-.two{
-    width: 20%;
-    height: 100%;
-    overflow: hidden;
-}
-.two>:nth-child(1){
-    width: 100%;
-    height: 200px;
-    box-shadow: 0px 0px 0px 600px rgba(0,0,0,1);
-    margin-top: -100px;
-    animation: imageanim 5s cubic-bezier(0.19, 1, 0.22, 1) ;
-}
-.three{
-    width: 20%;
-    height: 100%;
-    overflow: hidden;
-
-}
-.three>:nth-child(1){
-    width: 100%;
-    height: 300px;
-    box-shadow: 0px 0px 0px 600px rgba(0,0,0,1);
-    margin-top: -100px;
-    animation: imageanim 5s cubic-bezier(0.19, 1, 0.22, 1) ;
-}
-.four{
-    width: 20%;
-    height: 100%;
-    overflow: hidden;
-}
-.four>:nth-child(1){
-    width: 100%;
-    height: 250px;
-    box-shadow: 0px 0px 0px 600px rgba(0,0,0,1);
-    margin-top: -50px;
-    animation: imageanim 5s cubic-bezier(0.19, 1, 0.22, 1) ;
-}
-.five{
-    width: 20%;
-    height: 100%;
-    overflow: hidden;
+    width: 96%;
+    margin: 10px auto;
     
 }
-.five>:nth-child(1){
+.imagecontainer{
+    width:100% ;
+    height: 600px;
+    background-image: url("https://vedictribe.com/wp-content/uploads/2020/10/Maharana-Pratap-Singh.jpg");
+    background-size: cover;
+    position: relative;
+    
+}
+
+.grid1{
+    width: 15%;
+    height: 100%;
+    position: relative;
+    /* border: 1px solid rgb(255, 81, 0); */
+    overflow:hidden;
+   }
+   .gridchild1{
+       width: 100%;
+       height: 60%;
+       position: relative;
+       overflow:hidden;
+   }
+   .gridchild2{
+    width: 100%;
+    height: 40%;
+    position: relative;
+    overflow:hidden;
+}
+.gridchild1>:nth-child(1){
+ width: 100%;
+ height: 90px;
+ /* border: 1px solid yellow; */
+ position: absolute;
+ bottom: 0%;
+ box-shadow: 0px 0px 0px 300px black;
+}
+.gridchild2>:nth-child(1){
+    width: 50%;
+    height: 70px;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    bottom: 10px;
+    box-shadow: 0px 0px 0px 300px black;
+}
+.grid2{
+    width: 20%;
+    height: 100%;
+    position: relative;
+    /* border: 1px solid rgb(255, 81, 0); */
+    overflow:hidden;
+    position: relative;
+}
+.grid2>:nth-child(1){
+ width: 100%;
+ height: 150px;
+ /* border: 1px solid yellow; */
+ position: absolute;
+ bottom: 40%;
+ box-shadow: 0px 0px 0px 300px black;
+}
+.grid3{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    /* border: 1px solid rgb(255, 81, 0); */
+    overflow:hidden;
+}
+.grid3>:nth-child(1){
+    width: 100%;
+    height: 320px;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    bottom: 30%;
+    box-shadow: 0px 0px 0px 300px black;
+   }
+.grid4{
+    width: 15%;
+    height: 100%;
+    position: relative;
+    /* border: 1px solid rgb(255, 81, 0); */
+    overflow:hidden;
+}
+.grid4>:nth-child(1){
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    bottom: 30%;
+    box-shadow: 0px 0px 0px 300px black;
+   }
+.grid5{
+    width: 20%;
+    height: 100%;
+    position: relative;
+    /* border: 1px solid rgb(255, 81, 0); */
+    overflow:hidden;
+}
+.grid5>:nth-child(1){
     width: 100%;
     height: 300px;
-    box-shadow: 0px 0px 0px 600px rgba(0,0,0,1);
-    margin-top: 100px;
-    animation: imageanim 5s cubic-bezier(0.19, 1, 0.22, 1) ;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    bottom: 10%;
+    box-shadow: 0px 0px 0px 300px black;
+   }
+   .textcontainer{
+       width: 100%;
+       height: 100%;
+       z-index: 2;
+       position: absolute; 
+   }
+   .textcontainer p{
+       position: inherit;
+       font-size: 60px;
+       letter-spacing: 5px;
+       font-weight: 200px;
+       font-family: 'Yatra One', cursive;
+   }
+   .textcontainer>:nth-child(1){
+       left: 10px;
+       top: 290px;
+   }
+   .textcontainer>:nth-child(2){
+    left: 280px;
+    top: 340px;
 }
-@keyframes imageanim{
-    from{
-        height: 0px;
-    }
+.textcontainer>:nth-child(3){
+    left: 700px;
+    top: 410px;
+    color: rgb(255, 123, 0);
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 3;
+    right: 370px;
+    top: 60px;
+}
+.secondpage{
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    /* border: 1px solid red; */
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title>h1{
+    font-size: 40px;
+    color: rgb(255, 123, 0);
+}
+article{
+  width: 90%;
+  height: 500px;
+  margin: 50px auto;
+}
+section{
+    width: 60%;
+    height: 100%;
+    font-size: 20px;
+    padding: 20px;
+}
+section>:nth-child(2){
+   margin-top: 100px;
+   color: rgb(255, 123, 0);
+}
+figure{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    background-image: url("https://vedictribe.com/wp-content/uploads/2020/10/Maharana-Pratap-Singh.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.thirdpage{
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    position: relative;
+}
+.tleft{
+    height: 100%;
+    width: 30%;
+    position: inherit;
+}
+.tleft>.figure{
+    width: 50%;
+    height: 50%;
+    /* border: 1px solid rgb(238, 255, 0); */
+    margin: 70% auto 0px;
+    background-image: url("https://vedictribe.com/wp-content/uploads/2020/10/Maharana-Pratap-Singh.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.tleft>svg{
+    position: absolute;
+    top: 400px;
+    left: 170px;
+}
+.tright{
+    padding-top: 100px;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.box{
+    padding: 10px;
+    width: 90%;
+    height: 130px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.box h4{
+    color: rgb(255, 123, 0);
 }
